@@ -1,0 +1,24 @@
+<div class="ui attached stackable menu">
+  <div class="ui container">
+    <a routerLink="/" class="item">
+      <i class="home icon"></i> Главная
+    </a>
+    <a routerLink="/phones-list" class="item">
+      <i class="mobile icon"></i> Телефоны
+    </a>
+    <a routerLink="/contacts" class="item">
+      <i class="mail icon"></i> Контакты
+    </a>
+    <div class="right item">
+      <div class="ui input"><input placeholder="Search..." type="text"></div>
+    </div>
+  </div>
+</div>
+<div class="ui container wrapper">
+	<router-outlet></router-outlet>
+</div>
+<footer class="ui segment footer">
+	<div class="ui container">
+		<h3>Footer</h3>
+	</div>
+</footer>

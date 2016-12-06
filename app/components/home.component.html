@@ -1,0 +1,12 @@
+<div class="ui container">
+	<div class="ui segments">
+		<div class="ui segment">
+			<h1 *ngFor="let phone of phones">{{ phone.name + ' ' + phone.model }}</h1>
+		</div>
+		<div class="ui divider"></div>
+		<div class="ui blue segment">
+			<p>Привет, меня зовут Александр Лазарюк и это мой первый проект написанный на Angular2.</p>
+			<p>Чтобы посмотреть список телефонов пройдите по <a routerLink="/phones-list">ссылке</a></p>
+		</div>
+	</div>
+</div>

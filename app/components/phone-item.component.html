@@ -1,0 +1,29 @@
+<h2>{{ phonesList.phonesList.name }}</h2>
+<div class="ui grid">
+	<div class="eight wide column">
+		<div class="ui segment divided items">
+			<div class="item">
+			    <div class="image">
+			      <img src="/app/images/iphone.jpg">
+			    </div>
+			    <div class="content">
+			      <a class="header"> {{ phonesList.phonesList.name }} {{ phonesList.phonesList.model }}</a>
+			      <div class="meta">
+			        <span class="cinema">Состояние: Новый</span>
+			      </div>
+			      <div class="description">
+			        <p>Тут будет какое-то описание. </p>
+			        <p>Тут будет какое-то описание. </p>
+			        <p>Тут будет какое-то описание. </p>
+			      </div>
+			      <div class="extra">
+			        <div class="ui label"><i class="dollar icon"></i>{{ phonesList.phonesList.price }}</div>
+			        <a routerLink="/phone/{{ phoneId }}" class="">
+			        	<div class="ui right floated primary button">Подробнее<i class="right chevron icon"></i></div>
+			        </a>
+			      </div>
+			    </div>
+			  </div>
+		</div>
+	</div>
+</div>

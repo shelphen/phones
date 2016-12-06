@@ -1,0 +1,7 @@
+.wrapper {
+	flex: 1;
+}
+
+.ui.attached.menu {
+	margin-bottom: 2rem;
+}
